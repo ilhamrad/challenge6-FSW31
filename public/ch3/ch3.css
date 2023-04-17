@@ -1,0 +1,814 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*----page1----------*/
+.page1 {
+  background-image: url(assets/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 146.1vh;
+}
+
+nav {
+  opacity: 50%;
+  height: 13vh;
+  background-color: black;
+}
+
+.navteks1 {
+  position: absolute;
+  width: 5.6vw;
+  height: 5vh;
+  left: 7.8vw;
+  top: 4.3vh;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 5vh;
+  color: #ffffff;
+}
+
+.navteks2 {
+  position: absolute;
+  left: 23.8vw;
+  height: 3vh;
+  width: 4.9vw;
+  top: 5.7vh;
+  text-align: right;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 2.4vh;
+  color: #ffffff;
+}
+
+.navteks3 {
+  position: absolute;
+  left: 31.1vw;
+  height: 3vh;
+  width: 4.9vw;
+  top: 5.7vh;
+  text-align: right;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 2.4vh;
+  color: #ffffff;
+}
+
+.navteks4 {
+  position: absolute;
+  left: 38.7vw;
+  height: 3vh;
+  width: 4.9vw;
+  top: 5.7vh;
+  text-align: right;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 2.4vh;
+  color: #ffffff;
+}
+
+.navteks5 {
+  position: absolute;
+  left: 47.47vw;
+  height: 3vh;
+  width: 7vw;
+  top: 5.7vh;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 2.4vh;
+  color: #ffffff;
+}
+
+.navteks6 {
+  position: absolute;
+  left: 83.49vw;
+  height: 3vh;
+  width: 7vw;
+  top: 5.7vh;
+  text-align: right;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 2.4vh;
+  color: #ffffff;
+}
+
+.navteks7 {
+  position: absolute;
+  left: 88.79vw;
+  height: 3vh;
+  width: 7vw;
+  top: 5.7vh;
+  text-align: right;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 2.4vh;
+  color: #ffffff;
+}
+
+.click {
+  text-decoration: none;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 2.4vh;
+  color: #ffffff;
+}
+
+.teks1 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  height: 11.12vh;
+  left: 9.22%;
+  right: 10.47%;
+  top: 47.74vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.2vw;
+  line-height: 12.6vh;
+  text-align: center;
+  letter-spacing: 0.2vw;
+  text-transform: uppercase;
+}
+
+.teks2 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 33.8%;
+  top: 67.5vh;
+  right: 29.66%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.75vw;
+  letter-spacing: 0.1vw;
+}
+
+button {
+  background-color: orange;
+  width: 19vw;
+  height: 9.1vh;
+  border: none;
+  position: absolute;
+  left: 40.83%;
+  right: 41.09%;
+  top: 80.5vh;
+}
+
+.button1 {
+  border-radius: 4px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.17vw;
+  color: #1a1917;
+  text-align: center;
+  line-height: 3.3vh;
+}
+
+.teks3 {
+  position: absolute;
+  top: 133vh;
+  left: 47.66%;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8vw;
+  line-height: 3.34vh;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.scrolldown1 {
+  position: absolute;
+  width: 1.48vw;
+  top: 136.76vh;
+  left: 48.4vw;
+}
+/*----endpage1-------*/
+
+/*----page2----------*/
+.page2 {
+  background-image: url(assets/the-games-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 160vh;
+}
+
+.teks1-page2 {
+  color: white;
+  position: absolute;
+  margin-top: 38.7vh;
+  margin-left: 6.1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.75vw;
+  line-height: 4.26vh;
+  letter-spacing: 0.14vw;
+}
+
+.teks2-page2 {
+  color: white;
+  position: absolute;
+  margin-top: 45.17vh;
+  margin-left: 5.8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 9.7vh;
+  letter-spacing: 0.2vw;
+  text-transform: uppercase;
+}
+
+.guntingbatu {
+  background-image: url(assets/rockpaperstrategy-1600.jpg);
+  
+  background-size: 112% 100%;
+  background-position-x: -45px;
+  position: absolute;
+  height: 70vh;
+  width: 60vw;
+  margin-top: 44.5vh;
+  margin-left: 33.2vw;
+}
+
+.switchleft1 {
+  position: absolute;
+  padding-right: 10vw;
+  margin-top: 71.5vh;
+  margin-left: 31.2vw;
+}
+
+.switchright1 {
+  position: absolute;
+  width: 2vw;
+  padding-left: 10vw;
+  margin-top: 71.5vh;
+  margin-left: 83.8vw;
+}
+
+.bulet {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 4.5vw 4.5vw 4.5vw 4.5vw 4.5vw;
+  margin-top: 110vh;
+  margin-left: 54vw;
+}
+/*----endpage2-------*/
+
+/*----page3----------*/
+.page3 {
+  background-image: url(assets/features.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 132.45vh;
+}
+
+.bg1pg3 {
+  background-image: radial-gradient(farthest-side at 37vw 85vh, rgba(255, 0, 0, 0) 45%, rgba(3, 3, 3, 0.274) 130%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 132.45vh;
+}
+
+.teks1-page3 {
+  color: white;
+  position: absolute;
+  margin-top: 25.7vh;
+  margin-left: 58.58vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  line-height: 4.2vh;
+  letter-spacing: 0.1vw;
+}
+
+.teks2-page3 {
+  color: white;
+  position: absolute;
+  margin-top: 31.2vh;
+  margin-left: 58.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 9.7vh;
+  letter-spacing: 0.2vw;
+}
+
+.teks3-page3 {
+  color: #ffb548;
+  position: absolute;
+  margin-top: 53.2vh;
+  margin-left: 61.61vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  
+  letter-spacing: 0.1vw;
+}
+
+.teks4-page3 {
+  color: white;
+  position: absolute;
+  margin-top: 59.8vh;
+  margin-left: 61.61vw;
+  width: 23vw;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+  
+}
+
+.teks5-page3 {
+  color: #ffb548;
+  position: absolute;
+  margin-top: 75.9vh;
+  margin-left: 61.61vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  letter-spacing: 0.1vw;
+}
+
+.teks6-page3 {
+  color: #ffb548;
+  position: absolute;
+  margin-top: 87.3vh;
+  margin-left: 61.61vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  letter-spacing: 0.1vw;
+}
+
+.bulet1pg3 {
+  position: absolute;
+  margin-top: 54.2vh;
+  margin-left: 58.21vw;
+}
+
+.bulet2pg3 {
+  position: absolute;
+  margin-top: 76.3vh;
+  margin-left: 58.21vw;
+}
+
+.bulet3pg3 {
+  position: absolute;
+  margin-top: 88vh;
+  margin-left: 58.21vw;
+}
+
+.verticalline1 {
+  border-left: 2px solid white;
+  height: 21vh;
+  position: absolute;
+  margin-left: 58.7vw;
+  margin-top: 56.5vh;
+}
+
+/*----endpage3-------*/
+
+/*----page4----------*/
+.page4 {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 146.1vh;
+}
+
+.bg2-page4 {
+  background-image: url(assets/requirements.png);
+  background-repeat: no-repeat;
+  background-size: 75% 65%;
+  height: 163vh;
+  width: 98vw;
+  background-position-x: 15vw;
+  background-position-y: 27vh;
+}
+
+.bg3pg4 {
+  background-image: radial-gradient(closest-corner at 59vw 63vh, rgba(7, 7, 7, 0) 45%, rgba(0, 0, 0, 0.993) 65%);
+  background-repeat: no-repeat;
+  background-size: 85% 65%;
+  height: 165vh;
+  width: 98vw;
+  background-position-x: 8vw;
+  background-position-y: 27vh;
+}
+
+.teks1-page4 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 22.1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+}
+
+.teks2-page4 {
+  color: white;
+  position: absolute;
+  width: 29vw;
+  margin-top: 34.5vh;
+  margin-left: 9.6vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  letter-spacing: 0.2vw;
+}
+
+.table1 {
+  display: grid;
+  grid-template-columns: 22.2vw 22vw;
+  position: absolute;
+  left: 8.9vw;
+  margin-top: 59.1vh;
+  border: 1px solid #9797975d;
+}
+
+.teks3-page4 {
+  border: 1px solid #97979770;
+  height: 19vh;
+  padding-top: 2.2vh;
+  padding-left: 1.4vw;
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+}
+
+.teks4-page4 {
+  color: white;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.3vw;
+}
+
+#graphic {
+  border: 1px;
+  width: 32vw;
+}
+/*----endpage4-------*/
+
+/*----page5----------*/
+.page5 {
+  background-image: url(assets/top-score-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 146.1vh;
+}
+
+.teks1-page5 {
+  color: white;
+  font-family: arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  letter-spacing: 0.3vw;
+  position: absolute;
+  margin-top: 51.7vh;
+  margin-left: 8.7vw;
+}
+
+.teks2-page5 {
+  color: white;
+  position: absolute;
+  font-family: arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+  width: 26vw;
+  margin-top: 2vh;
+  letter-spacing: normal;
+}
+
+.button1pg5 {
+  position: relative;
+  border-radius: 2px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw;
+  width: 19vw;
+  height: 9.1vh;
+  margin-left: -31.5vw;
+  margin-top: -20vh;
+}
+
+.teks3-page5 {
+  display: grid;
+  grid-template-columns: 7vw 7vw 7vw;
+}
+
+.teks4-page5 {
+  color: white;
+  position: absolute;
+  background-color: rgba(43, 41, 41, 0.781);
+  width: 33.1vw;
+  height: 27.8vh;
+  margin-left: 63.64vw;
+  margin-top: 24.2vh;
+  border-radius: 10px;
+}
+
+.bg1 {
+  background-image: url(assets/ellipse-orange.png);
+  background-repeat: no-repeat;
+  height: 9.7vh;
+  width: 4.7vw;
+  margin-top: 2.4vh;
+  margin-left: 1.6vw;
+  border-radius: 100%;
+}
+
+.gmb1 {
+  border-radius: 100%;
+  margin-top: -0.6vh;
+  margin-left: -0.6vw;
+  height: 9.6vh;
+  width: 4.6vw;
+}
+
+.name {
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.7vw;
+  letter-spacing: 0.1vw;
+  position: absolute;
+  margin-top: 4vh;
+  margin-left: 7.9vw;
+}
+
+.job {
+  color: grey;
+  position: absolute;
+  margin-top: -1.3vh;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.3vw;
+  opacity: 70%;
+}
+
+.bg2 {
+  position: absolute;
+  margin-top: 4.6vh;
+  margin-left: 30.3vw;
+}
+
+.teksbox {
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 1.2vw;
+}
+
+.date {
+  color: grey;
+  position: absolute;
+  margin-top: 11vh;
+  margin-left: 1.15vw;
+  opacity: 70%;
+}
+
+.teks5-page5 {
+  display: grid;
+  grid-template-columns: 7vw 7vw 7vw;
+}
+
+.teks6-page5 {
+  background-color: rgba(43, 41, 41, 0.781);
+  color: white;
+  position: absolute;
+  border-radius: 10px;
+  width: 33.1vw;
+  height: 27.8vh;
+  margin-left: 52.9vw;
+  margin-top: 56.6vh;
+}
+
+.gmb2 {
+  border-radius: 100%;
+  margin-top: -0.6vh;
+  margin-left: -0.6vw;
+  height: 9.6vh;
+  width: 4.6vw;
+}
+
+.teks7-page5 {
+  display: grid;
+  grid-template-columns: 7vw 7vw 7vw;
+}
+.teks8-page5 {
+  background-color: rgba(43, 41, 41, 0.781);
+  color: white;
+  position: absolute;
+  border-radius: 10px;
+  width: 33.1vw;
+  height: 27.8vh;
+  margin-left: 60.6vw;
+  margin-top: 92.4vh;
+}
+
+.gmb3 {
+  border-radius: 100%;
+  margin-top: -0.6vh;
+  margin-left: -0.6vw;
+  height: 9.6vh;
+  width: 4.6vw;
+}
+/*----endpage5-------*/
+
+/*----page6----------*/
+.page6 {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 158vh;
+}
+
+.bgskull {
+  position: absolute;
+  height: 90vh;
+  width: 30vw;
+  margin-top: 20vh;
+  margin-left: 12.5vw;
+}
+
+.rgskull {
+  background-image: radial-gradient(closest-side at 20vw 45vh, rgba(255, 0, 0, 0) 50%, rgba(2, 2, 2, 0.87) 100%);
+  position: absolute;
+  height: 95vh;
+  width: 35vw;
+  margin-top: 19vh;
+  margin-left: 10vw;
+}
+
+.teks1-page6 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 20.7vh;
+  margin-left: 49.4vw;
+}
+
+.teks2-page6 {
+  font-size: 1.75vw;
+  letter-spacing: 0.14vw;
+  width: 15vw;
+  line-height: 4.1vh;
+}
+
+.teks3-page6 {
+  font-size: 4.75vw;
+  letter-spacing: 0.2vw;
+  width: 19vw;
+  line-height: 10vh;
+  margin-top: 5vh;
+}
+
+.teks4-page6 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.31vw;
+  width: 47.2vw;
+  height: 20.7vh;
+  margin-top: 5vh;
+}
+
+.teks5-page6 {
+  color: white;
+  position: absolute;
+  margin-top: 80vh;
+  margin-left: 49.4vw;
+}
+
+.teks6-page6 {
+  background-color: rgb(63, 63, 63);
+  background-size: 100% 100%;
+  height: 9.1vh;
+  width: 26.8vw;
+  border-radius: 5px;
+  padding-top: 0.93vh;
+  padding-left: 1.5vw;
+}
+
+.subsnow {
+  position: relative;
+  margin-top: -0.5vh;
+  margin-left: 37.4vw;
+  width: 19vw;
+  height: 9.1vh;
+  border-radius: 3px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 1.17vw;
+}
+
+.emailaddress {
+  color: rgb(160, 149, 149);
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.02vw;
+}
+
+.emailbinar {
+  color: orange;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.31vw;
+}
+
+.teks7-page6 {
+  color: white;
+  position: absolute;
+  width: 20vw;
+  margin-left: 23vw;
+  margin-top: 125vh;
+  display: grid;
+  grid-template-columns: 6vw 7vw 13vw 17vw 7vw 3.9vw 3.9vw 3.9vw 3.9vw;
+
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.87;
+}
+
+.logo {
+  margin-left: 4vw;
+}
+
+.teks8-page6 {
+  border-top: 1px solid rgba(128, 128, 128, 0.623);
+  width: 82vw;
+  margin-left: 8.5vw;
+  margin-top: 136vh;
+}
+
+.teks9-page6 {
+  color: grey;
+  position: absolute;
+  margin-left: 8.3vw;
+  margin-top: 3.3vh;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.02vw;
+  font-weight: 400;
+}
+
+.teks10-page6 {
+  color: white;
+  position: absolute;
+  margin-left: 66.8vw;
+  margin-top: 3.3vh;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.8vw;
+  font-weight: 700;
+}
+
+/*----endpage6-------*/

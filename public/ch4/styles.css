@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5em 5em;
+  width: 100%;
+}
+
+.back-arrow {
+  font-size: 72px;
+  font-weight: 700;
+  color: #724c21;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #9c835f;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #f9b23d;
+  margin-left: 0.5em;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 1em;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+#middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  margin-top: 20em;
+}
+
+.versus {
+  font-size: 144px;
+  color: red;
+  font-weight: 700;
+}
+
+.restart-button {
+  opacity: 0;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+.list-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10em;
+  cursor: pointer;
+  width: 20%;
+}
+
+.list-options > div.playerOption:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  width: 1.5em;
+}
+
+.list-options > div.playerOption:focus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  width: 1.5em;
+}
+
+.list-options > div.computerOption.selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  width: 1.5em;
+}
